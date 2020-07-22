@@ -1,6 +1,7 @@
 /*------------------------------------
   Default Styles
 ------------------------------------*/
+
 html {
   font-size: 14px;
 }
@@ -23,8 +24,7 @@ a {
   outline: none;
 }
 
-a:focus,
-a:hover {
+a:focus, a:hover {
   color: #66ab27;
 }
 
@@ -32,8 +32,7 @@ a:hover {
   color: #555;
 }
 
-.nav-link:focus,
-.nav-link:hover {
+.nav-link:focus, .nav-link:hover {
   color: #555;
 }
 
@@ -44,8 +43,8 @@ figure {
 /*------------------------------------
   Headings
 ------------------------------------*/
-.h1, .h2, .h3, .h4, .h5, .h6, .h7,
-h1, h2, h3, h4, h5, h6 {
+
+.h1, .h2, .h3, .h4, .h5, .h6, .h7, h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
 }
 
@@ -56,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 /*------------------------------------
   Displays
 ------------------------------------*/
+
 .display-5 {
   font-size: 3rem;
   font-weight: 300;
@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 /*------------------------------------
   Highlight Color
 ------------------------------------*/
+
 ::-moz-selection {
   color: #fff;
   background-color: #72c02c;
